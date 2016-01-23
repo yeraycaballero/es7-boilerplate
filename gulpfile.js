@@ -3,7 +3,7 @@ const sourcemaps = require(`gulp-sourcemaps`);
 const babel = require(`gulp-babel`);
 const nodemon = require(`gulp-nodemon`);
 
-const src = `src/**/*.js`
+const src = `src/**/*.js`;
 const dest = `dist`;
 
 gulp.task(`watch`, () => {

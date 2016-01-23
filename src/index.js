@@ -1,13 +1,13 @@
-import 'source-map-support/register'
-import 'babel-polyfill'
+import 'source-map-support/register';
+import 'babel-polyfill';
 
-async function test(){
+async function test() {
   await new Promise((resolve, reject) => {
     setTimeout(() => {
-      resolve()
-    }, 2000)
+      resolve();
+    }, 2000);
   });
-  console.log(`Hello, es7!`)
+  console.log(`Hello, es7!`);
 }
 
 test();
