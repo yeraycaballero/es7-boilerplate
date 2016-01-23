@@ -25,6 +25,10 @@
     "gulp-sourcemaps": "^1.6.0",
     "source-map-support": "^0.4.0"
   },
+  "engines": {
+    "node": "^5",
+    "npm": "^3"
+  },
   "author": "Matt Hova",
   "license": "MIT"
 }
